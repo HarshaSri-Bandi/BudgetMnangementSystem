@@ -1,0 +1,8 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        -id : User-Service
+#        uri : http://localhost:8200
+#        predicates:
+#          - Path= /api/user/getCustomers
